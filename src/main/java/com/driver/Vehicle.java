@@ -30,6 +30,10 @@ public class Vehicle {
         System.out.println("stop method called - The vehicle is stopped");
     }
 
+    public String getName() {
+        return name;
+    }
+
     public int getCurrentSpeed() {
         return currentSpeed;
     }
